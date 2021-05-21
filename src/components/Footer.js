@@ -16,20 +16,7 @@ function Footer() {
             <footer>
                 <button onClick={toggleModal}>Rules</button>
             </footer>
-            { showModal? (
-                <Modal>
-                    <div className="modal__header">
-                        <h1>Rules</h1>
-                        <button className="desktop__button" onClick={toggleModal}>
-                            <img src={closeIcon} alt="Close Icon" />
-                        </button>
-                    </div>
-                    <img src={imageRules} alt="Game Rules" />
-                    <button className="mobile__button" onClick={toggleModal}>
-                            <img src={closeIcon} alt="Close Icon" />
-                    </button>
-                </Modal>
-            ) : null }
+           
         </div>
     )
 }

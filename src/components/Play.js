@@ -51,7 +51,7 @@ function Play(props) {
             setResultMessage('You Win.. Your coupan code is "xplUANun"');
         } else if (houseWins) {
             props.setScore(currentScore - 1);
-            setResultMessage("You Lose.. Better luck next time");
+            setResultMessage("You Lost.. Better luck next time");
         } else {
             setResultMessage("Draw");
         }
